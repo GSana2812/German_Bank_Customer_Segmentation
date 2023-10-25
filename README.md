@@ -1,4 +1,4 @@
-# German_Bank_Customer_Segmentation
+# German Bank Customer Segmentation
 A clustering web app which leverages KMeans to organize german bank customers and using FastAPI for robust API functionality and Docker for containerization.
 
 In this project, I have organized german bank customers in clusters based on three main features: Credit_amount, Age and Duration of the credit. I decided to robust 
