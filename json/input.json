@@ -1,0 +1,17 @@
+[
+    {
+      "Credit_amount": 1479,
+      "Age": 32,
+      "Duration": 30
+    },
+    {
+      "Credit_amount": 1262,
+      "Age": 40,
+      "Duration": 14
+    },
+    {
+      "Credit_amount": 2000,
+      "Age": 45,
+      "Duration": 10
+    }
+]
