@@ -32,7 +32,7 @@ async def predictions(items: List[ClusterPrediction]):
     data_dict = [item.model_dump() for item in items]
     df = pd.DataFrame(data_dict)
     data_scaled = scale_features(df)
-    kmeans_sel = KMeans(n_clusters = 3, random_state=19).fit(data_scaled)
+    kmeans_sel = KMeans(n_clusters = 3, random_state=19).fit_predict(data_scaled)
     labels = (kmeans_sel.labels_).tolist()
 
     label_dict = [{"Index":i,"Cluster":label} for i, label in enumerate(labels)]
